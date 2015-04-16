@@ -252,4 +252,8 @@
 .ba-width-9-10{
     width: 90%;
 }
+.box{
+    background-color: #ccc;
+    height: 20px;
+}
 
