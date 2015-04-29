@@ -92,12 +92,16 @@
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 }
+/*inage*/
+img{
+	
+}
 /*grid*/
 .ba-grid{
 	margin-left: -20px;
 }
 .ba-grid+.ba-grid{
-	margin-top: 20px;
+	margin-top: 110px;
 }
 .ba-grid:before,
 .ba-grid:after{
@@ -114,8 +118,22 @@
 	float: left;
 	padding-left: 20px;
 }
+
+/*no indent*/
+.ba-grid-noindent{
+	margin-left: 0px;
+}
+.ba-grid-noindent+.ba-grid-noindent{
+	margin-top: 0px;
+}
+.ba-grid>[class*="ba-width"]{
+	float: left;
+	padding-left: 0px;
+}
+
+
 .ba-width-1-1{
-    width: 100%;
+	width: 100%;
 }
 .ba-width-1-2{
 	width: 50%;
